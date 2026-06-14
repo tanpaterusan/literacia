@@ -113,7 +113,10 @@ require 'function/function.php';
                             document.location.href = 'login.php';
                         </script>";
             } else {
-                echo "Waduh gawat!";
+                echo "<script>
+                            alert('Mohon maaf user gagal daftar!');
+                            document.location.href = 'register.php';
+                        </script>";
                 // mysqli_error($conn);
             }
         }

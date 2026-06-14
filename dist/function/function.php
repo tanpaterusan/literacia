@@ -44,7 +44,7 @@ function regist($data)
     //query insert data
     $query = "INSERT INTO user
 	          VALUES 
-	          ('$nama', '$alamat', '$kontak', '$username', '$password', '$role')
+	          ('$nama', '$alamat', '$kontak', '$username', '$password', '$role', 0)
 	          ";
     mysqli_query($conn, $query);
 

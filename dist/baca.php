@@ -59,7 +59,7 @@ include 'templates/sidebar.php';
                                             data-bs-toggle="modal"
                                             data-bs-id="<?= $b['id']; ?>"
                                             role="button">
-                                            <i class="fa fa-trash"> Hapus</i>
+                                            <i class="fa fa-trash"></i>Hapus
                                         </a>
                                         <i class="fa-solid fa-arrows-up-down"></i>
                                         <a href="#ubahModal"
